@@ -1,5 +1,5 @@
 const myNameSurname = "Seçkin Özülkü";
-const myAge = "26"
+const myAge = "26";
 
 btn.onclick = function () {
     document.getElementById("nameSurname").innerHTML = myNameSurname;
