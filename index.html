@@ -7,17 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odev Hafta 1</title>
     <style>
+        /* Benim kendi yaptığım ilk olarak button'a id değeri verip still ve fonksiyona onunla tanımladığım için yorum
+        satırlarında belirteceğim. 
+        Asistanlar benim yaptığımın daha doğru olduğunu fakat istenenin farklı olduğunu, button'a id verilmemesi gerektiğini,
+        değiştirip değiştirmemenin bana kaldığını söylediler , bende belirtmek istedim.
+        Hem kendi ilk yaptığım gibi , hemde sizin istediğiniz gibi ekliyorum. Kendi yaptığım yorum satırı içindekiler. */
         body {
             background-color: darkcyan;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            font-family:Verdana, Arial, Helvetica, sans-serif; 
+            font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 18px;
         }
 
-        #btn {
+        /*Kendi yaptığım gibi
+         #btn {
+            border-radius: 20px;
+            border: 1px solid white;
+            cursor: pointer;
+            min-width: 150px;
+            min-height: 30px;
+            background-color: rgb(117, 55, 51);
+            color: black;
+            margin-bottom: 25px;
+        } */
+
+        .btn {
             border-radius: 20px;
             border: 1px solid white;
             cursor: pointer;
@@ -34,7 +51,9 @@
     <div>
         <h1 id="nameSurname"></h1>
         <h2 id="age"></h2>
-        <button id="btn">İsim ve Yaşımı Getir</button>
+        <!-- Kendi yaptığım gibi
+            <button id="btn">İsim ve Yaşımı Getir</button> -->
+        <button class="btn" onclick="myFunction()">İsim ve Yaşımı Getir</button>
         <div>
             <a id="linkedinUrl" target="_blank">Linkedin Profili</a>
             <br>
@@ -44,4 +63,4 @@
     <script src="index.js"></script>
 </body>
 
-</html> 
+</html>
