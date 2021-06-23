@@ -7,7 +7,8 @@ const myAge = "26";
 function myFunction() {
     document.getElementById("nameSurname").innerHTML = myNameSurname;
     document.getElementById("age").innerHTML = myAge;
-    // Kendi yaptığım gibi document.getElementById("btn").style.display = "none";
+    // Kendi yaptığım gibi 
+    // document.getElementById("btn").style.display = "none";
     document.querySelector("button").style.display = "none";
 }
 document.getElementById("linkedinUrl").setAttribute("href", "https://www.linkedin.com/in/seckinozulku/");
